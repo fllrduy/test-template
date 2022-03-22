@@ -1,0 +1,28 @@
+@import './fonts.css';
+@import './design-tokens.css';
+
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: var(--font-size-base);
+}
+
+html,
+body,
+button,
+span,
+div,
+input {
+  font-family: 'Nunito Sans', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}

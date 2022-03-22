@@ -1,0 +1,7 @@
+{
+  "app": {
+    "countFormat": "count is: {{count}}",
+    "learn-react": "Learn React",
+    "hello-world": "Hello, World!"
+  }
+}
